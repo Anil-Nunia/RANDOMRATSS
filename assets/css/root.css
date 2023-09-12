@@ -1,0 +1,124 @@
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Press+Start+2P&display=swap'); 
+
+.ff_press {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.ff_ibm {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+:root {
+     --fs_xsm: 14px;
+        --fs_sm: 15px;
+        --fs_md: 16px;
+        --fs_lg: 20px;
+        --fs_xl: 28px;
+        --fs_2xl: 37px;
+        --fs_xxl: 85px; 
+
+
+    /* color */
+    --bg_black: #000000;
+    --text_color: #F61529;
+    --bg_red: #F61529;
+    --text_white: #fff;
+
+   
+
+}
+
+.fs_xsm {
+    font-size: var(--fs_xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs_sm);
+}
+
+.fs_md {
+    font-size: var(--fs_md);
+}
+
+.fs_lg {
+    font-size: var(--fs_lg);
+}
+
+.fs_xl {
+    font-size: var(--fs_xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs_xxl);
+}
+
+.fs_2xl {
+    font-size: var(--fs_2xl);
+}
+
+.bg_black {
+    background-color: var(--bg_black);
+}
+
+.text_color {
+    color: var(--text_color);
+}
+
+.text_white {
+    color: var(--text_white);
+
+}
+
+.bg_red {
+    background-color: var(--bg_red);
+}
+@media (min-width:320px) {
+    :root{
+        --fs_sm: 8px;
+            --fs_md: 16px;
+            --fs_lg: 13px;
+            --fs_xl: 16px;
+            --fs_2xl: 18px;
+            --fs_xxl: 32px;
+    }
+}
+
+ @media (min-width:576px) {
+    :root {
+        --fs_xsm: 14px;
+        --fs_sm: 15px;
+        --fs_md: 16px;
+        --fs_lg: 20px;
+        --fs_xl: 20px;
+        --fs_2xl: 37px;
+        --fs_xxl: 57px;
+    }
+
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs_xsm: 14px;
+        --fs_sm: 15px;
+        --fs_md: 16px;
+        --fs_lg: 20px;
+        --fs_xl: 20px;
+        --fs_2xl: 37px;
+        --fs_xxl: 60px;
+    }
+
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs_xsm: 14px;
+        --fs_sm: 15px;
+        --fs_md: 16px;
+        --fs_lg: 20px;
+        --fs_xl: 28px;
+        --fs_2xl: 37px;
+        --fs_xxl: 72px;
+    }
+
+} 
+
